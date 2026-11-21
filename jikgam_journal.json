@@ -1,0 +1,38 @@
+{
+ "schema": 1,
+ "what": "직감 봇 일지(공개용) — 수익률·가격·사건만. 손익 금액·수량·메모는 싣지 않음",
+ "symbol": "BTCUSDT 무기한",
+ "updated_kst": "2026-11-22 00:45:20",
+ "n": 1,
+ "wins": 0,
+ "losses": 1,
+ "skipped_lines": 0,
+ "trades": [
+  {
+   "no": 1,
+   "dir": "숏",
+   "entry": 59000.0,
+   "exit": 59591.1,
+   "ret_pct": -1.002,
+   "win": false,
+   "how": "손절",
+   "tp_pct": 1.0,
+   "filled_kst": "2026-11-21 22:06:33",
+   "closed_kst": "2026-11-21 22:23:27",
+   "filled_ms": 1795266393909,
+   "closed_ms": 1795267407045,
+   "locked": false,
+   "mfe_pct": 0.203,
+   "mae_pct": -1.002,
+   "sl_final": 59590.0,
+   "events": [
+    {
+     "at": "2026-11-21 22:06:33",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 59,000.0 · 1시간 판정 23:06"
+    }
+   ]
+  }
+ ]
+}
