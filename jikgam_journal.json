@@ -1,0 +1,818 @@
+{
+ "schema": 1,
+ "what": "직감 봇 일지(공개용) — 수익률·가격·사건만. 손익 금액·수량·메모는 싣지 않음",
+ "symbol": "BTCUSDT 무기한",
+ "updated_kst": "2026-11-28 23:45:20",
+ "n": 15,
+ "wins": 7,
+ "losses": 8,
+ "skipped_lines": 0,
+ "trades": [
+  {
+   "no": 1,
+   "dir": "숏",
+   "entry": 59000.0,
+   "exit": 59591.1,
+   "ret_pct": -1.002,
+   "win": false,
+   "how": "손절",
+   "tp_pct": 1.0,
+   "filled_kst": "2026-11-21 22:06:33",
+   "closed_kst": "2026-11-21 22:23:27",
+   "filled_ms": 1795266393909,
+   "closed_ms": 1795267407045,
+   "locked": false,
+   "mfe_pct": 0.203,
+   "mae_pct": -1.002,
+   "sl_final": 59590.0,
+   "setup": {
+    "tags": [
+     "그 밖"
+    ],
+    "week": -12.15,
+    "hour": 1.12,
+    "rsi7": 79.5,
+    "wick_pct": 0.006,
+    "tail": false,
+    "top2h": false,
+    "bar": "11-21 21:45"
+   },
+   "events": [
+    {
+     "at": "2026-11-21 22:06:33",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 59,000.0 · 1시간 판정 23:06"
+    }
+   ],
+   "sync": {
+    "open": false,
+    "backfill": true,
+    "ratio_med": 1.676,
+    "note": "나스닥 쉬는 시간"
+   },
+   "corrected": null
+  },
+  {
+   "no": 2,
+   "dir": "숏",
+   "entry": 59350.0,
+   "exit": 59960.1,
+   "ret_pct": -1.028,
+   "win": false,
+   "how": "손절",
+   "tp_pct": 0.7,
+   "filled_kst": "2026-11-22 17:17:19",
+   "closed_kst": "2026-11-22 17:35:15",
+   "filled_ms": 1795335439183,
+   "closed_ms": 1795336515011,
+   "locked": false,
+   "mfe_pct": 0.113,
+   "mae_pct": -1.028,
+   "sl_final": 59943.5,
+   "setup": {
+    "tags": [
+     "밴드 끝 반대"
+    ],
+    "week": -7.08,
+    "hour": 0.34,
+    "rsi7": 64.3,
+    "wick_pct": 0.134,
+    "tail": false,
+    "top2h": true,
+    "bar": "11-22 17:00"
+   },
+   "events": [
+    {
+     "at": "2026-11-22 17:17:19",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 59,350.0 · 1시간 판정 18:17"
+    }
+   ],
+   "sync": {
+    "open": false,
+    "backfill": true,
+    "ratio_med": 1.676,
+    "note": "나스닥 쉬는 시간"
+   },
+   "corrected": null
+  },
+  {
+   "no": 3,
+   "dir": "숏",
+   "entry": 60700.0,
+   "exit": 60720.4,
+   "ret_pct": -0.034,
+   "win": false,
+   "how": "1시간 규칙(체결 1시간 뒤 -0.1%)",
+   "tp_pct": 1.0,
+   "filled_kst": "2026-11-22 21:30:32",
+   "closed_kst": "2026-11-22 22:30:36",
+   "filled_ms": 1795350632062,
+   "closed_ms": 1795354236156,
+   "locked": false,
+   "mfe_pct": 0.412,
+   "mae_pct": -0.397,
+   "sl_final": 61307.0,
+   "setup": {
+    "tags": [
+     "그 밖"
+    ],
+    "week": -7.39,
+    "hour": -0.6,
+    "rsi7": 46.8,
+    "wick_pct": 0.728,
+    "tail": false,
+    "top2h": true,
+    "bar": "11-22 21:15"
+   },
+   "events": [
+    {
+     "at": "2026-11-22 21:30:32",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 60,700.0 · 1시간 판정 22:30"
+    },
+    {
+     "at": "2026-11-22 22:30:33",
+     "kind": "close",
+     "label": "종료",
+     "text": "정리 — 1시간 규칙(체결 1시간 뒤 -0.1%)"
+    }
+   ],
+   "sync": {
+    "open": false,
+    "backfill": true,
+    "ratio_med": 1.676,
+    "note": "나스닥 쉬는 시간"
+   },
+   "corrected": null
+  },
+  {
+   "no": 4,
+   "dir": "숏",
+   "entry": 61050.0,
+   "exit": 61199.9,
+   "ret_pct": -0.246,
+   "win": false,
+   "how": "1시간 규칙(체결 1시간 뒤 -0.2%)",
+   "tp_pct": 1.0,
+   "filled_kst": "2026-11-23 08:30:02",
+   "closed_kst": "2026-11-23 09:30:07",
+   "filled_ms": 1795390202581,
+   "closed_ms": 1795393807668,
+   "locked": false,
+   "mfe_pct": 0.049,
+   "mae_pct": -0.529,
+   "sl_final": 61660.5,
+   "setup": {
+    "tags": [
+     "밴드 끝 반대"
+    ],
+    "week": -6.25,
+    "hour": 0.41,
+    "rsi7": 59.9,
+    "wick_pct": 0.168,
+    "tail": false,
+    "top2h": false,
+    "bar": "11-23 08:15"
+   },
+   "events": [
+    {
+     "at": "2026-11-23 08:30:02",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 61,050.0 · 1시간 판정 09:30"
+    },
+    {
+     "at": "2026-11-23 09:30:04",
+     "kind": "close",
+     "label": "종료",
+     "text": "정리 — 1시간 규칙(체결 1시간 뒤 -0.2%)"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "backfill": true,
+    "ratio_med": 1.676
+   },
+   "corrected": null
+  },
+  {
+   "no": 5,
+   "dir": "숏",
+   "entry": 61750.0,
+   "exit": 61132.5,
+   "ret_pct": 1.0,
+   "win": true,
+   "how": "익절",
+   "tp_pct": 1.0,
+   "filled_kst": "2026-11-23 14:44:21",
+   "closed_kst": "2026-11-23 17:15:35",
+   "filled_ms": 1795412661511,
+   "closed_ms": 1795421735078,
+   "locked": true,
+   "mfe_pct": 1.0,
+   "mae_pct": -0.102,
+   "sl_final": 61688.3,
+   "setup": {
+    "tags": [
+     "그 밖"
+    ],
+    "week": -5.23,
+    "hour": 0.28,
+    "rsi7": 65.5,
+    "wick_pct": 0.085,
+    "tail": false,
+    "top2h": false,
+    "bar": "11-23 14:15"
+   },
+   "events": [
+    {
+     "at": "2026-11-23 14:44:21",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 61,750.0 · 1시간 판정 15:44"
+    },
+    {
+     "at": "2026-11-23 15:44:22",
+     "kind": "hour",
+     "label": "1시간",
+     "text": "1시간 판정 — +0.5% 이익 구간이라 유지"
+    },
+    {
+     "at": "2026-11-23 17:15:22",
+     "kind": "lock",
+     "label": "잠금",
+     "text": "잠금(+0.9% 도달) — 손절을 61688.3 로 옮김"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "now": 0.74,
+    "backfill": true,
+    "ratio": 2.39,
+    "ratio_med": 1.676
+   },
+   "corrected": null
+  },
+  {
+   "no": 6,
+   "dir": "롱",
+   "entry": 61250.0,
+   "exit": 61862.5,
+   "ret_pct": 1.0,
+   "win": true,
+   "how": "익절",
+   "tp_pct": 1.0,
+   "filled_kst": "2026-11-23 20:14:33",
+   "closed_kst": "2026-11-23 22:56:09",
+   "filled_ms": 1795432473774,
+   "closed_ms": 1795442169860,
+   "locked": false,
+   "mfe_pct": 1.0,
+   "mae_pct": -0.346,
+   "sl_final": 60637.5,
+   "setup": {
+    "tags": [
+     "밴드 끝 반대"
+    ],
+    "week": -4.87,
+    "hour": -0.02,
+    "rsi7": 48.0,
+    "wick_pct": 0.093,
+    "tail": false,
+    "top2h": false,
+    "bar": "11-23 19:45"
+   },
+   "events": [
+    {
+     "at": "2026-11-23 20:14:33",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 롱 61,250.0 · 1시간 판정 21:14"
+    },
+    {
+     "at": "2026-11-23 21:14:34",
+     "kind": "hour",
+     "label": "1시간",
+     "text": "1시간 판정 — +0.1% 이익 구간이라 유지"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "now": 0.6,
+    "backfill": true,
+    "ratio": 1.53,
+    "ratio_med": 1.676
+   },
+   "corrected": "2026-11-23 23:14:03"
+  },
+  {
+   "no": 7,
+   "dir": "롱",
+   "entry": 61150.0,
+   "exit": 60523.2,
+   "ret_pct": -1.025,
+   "win": false,
+   "how": "손절",
+   "tp_pct": 1.0,
+   "filled_kst": "2026-11-24 09:31:56",
+   "closed_kst": "2026-11-24 11:23:08",
+   "filled_ms": 1795480316975,
+   "closed_ms": 1795486988482,
+   "locked": false,
+   "mfe_pct": 0.839,
+   "mae_pct": -1.025,
+   "sl_final": 60538.5,
+   "setup": {
+    "tags": [
+     "밴드 끝 반대"
+    ],
+    "week": -5.23,
+    "hour": -0.51,
+    "rsi7": 44.9,
+    "wick_pct": 0.19,
+    "tail": true,
+    "top2h": false,
+    "bar": "11-24 09:15"
+   },
+   "events": [
+    {
+     "at": "2026-11-24 09:31:57",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 롱 61,150.0 · 1시간 판정 10:31"
+    },
+    {
+     "at": "2026-11-24 10:31:58",
+     "kind": "hour",
+     "label": "1시간",
+     "text": "1시간 판정 — +0.6% 이익 구간이라 유지"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "day": 0.61,
+    "label": "보통",
+    "now": 0.53,
+    "backfill": true,
+    "day_old": 0.88,
+    "old_label": "묶임",
+    "ratio": 1.65,
+    "ratio_med": 1.676
+   },
+   "corrected": null
+  },
+  {
+   "no": 8,
+   "dir": "숏",
+   "entry": 60500.0,
+   "exit": 59895.0,
+   "ret_pct": 1.0,
+   "win": true,
+   "how": "익절",
+   "tp_pct": 1.0,
+   "filled_kst": "2026-11-24 21:55:38",
+   "closed_kst": "2026-11-24 22:09:36",
+   "filled_ms": 1795524938119,
+   "closed_ms": 1795525776381,
+   "locked": false,
+   "mfe_pct": 1.0,
+   "mae_pct": -0.095,
+   "sl_final": 61105.0,
+   "setup": {
+    "tags": [
+     "밴드 끝 반대"
+    ],
+    "week": -6.78,
+    "hour": 0.94,
+    "rsi7": 68.6,
+    "wick_pct": 0.165,
+    "tail": false,
+    "top2h": true,
+    "bar": "11-24 21:30"
+   },
+   "events": [
+    {
+     "at": "2026-11-24 21:55:38",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 60,500.0 · 1시간 판정 22:55"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "day": 0.44,
+    "label": "보통",
+    "now": 0.7,
+    "backfill": false,
+    "day_old": 0.82,
+    "old_label": "묶임",
+    "ratio": 1.29,
+    "ratio_med": 1.676
+   },
+   "corrected": null
+  },
+  {
+   "no": 9,
+   "dir": "숏",
+   "entry": 59300.0,
+   "exit": 58884.9,
+   "ret_pct": 0.7,
+   "win": true,
+   "how": "익절",
+   "tp_pct": 0.7,
+   "filled_kst": "2026-11-25 17:31:27",
+   "closed_kst": "2026-11-25 18:30:05",
+   "filled_ms": 1795595487708,
+   "closed_ms": 1795599005344,
+   "locked": true,
+   "mfe_pct": 0.7,
+   "mae_pct": -0.23,
+   "sl_final": 59240.7,
+   "setup": {
+    "tags": [
+     "밴드 끝 반대"
+    ],
+    "week": -8.83,
+    "hour": -0.03,
+    "rsi7": 49.3,
+    "wick_pct": 0.025,
+    "tail": false,
+    "top2h": false,
+    "bar": "11-25 17:15"
+   },
+   "events": [
+    {
+     "at": "2026-11-25 17:31:27",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 59,300.0 · 1시간 판정 18:31"
+    },
+    {
+     "at": "2026-11-25 18:22:08",
+     "kind": "lock",
+     "label": "잠금",
+     "text": "잠금(+0.5% 도달) — 손절을 59240.7 로 옮김"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "day": 0.81,
+    "label": "묶임",
+    "now": 0.64,
+    "backfill": false,
+    "day_old": 0.83,
+    "old_label": "묶임",
+    "ratio": 1.31,
+    "ratio_med": 1.654
+   },
+   "corrected": null
+  },
+  {
+   "no": 10,
+   "dir": "숏",
+   "entry": 61100.0,
+   "exit": 60489.0,
+   "ret_pct": 1.0,
+   "win": true,
+   "how": "익절",
+   "tp_pct": 1.0,
+   "filled_kst": "2026-11-26 09:16:33",
+   "closed_kst": "2026-11-26 09:49:07",
+   "filled_ms": 1795652193265,
+   "closed_ms": 1795654147473,
+   "locked": true,
+   "mfe_pct": 1.0,
+   "mae_pct": -0.824,
+   "sl_final": 61038.9,
+   "setup": {
+    "tags": [
+     "그 밖"
+    ],
+    "week": -2.93,
+    "hour": 1.19,
+    "rsi7": 84.2,
+    "wick_pct": 0.063,
+    "tail": false,
+    "top2h": true,
+    "bar": "11-26 09:00"
+   },
+   "events": [
+    {
+     "at": "2026-11-26 09:16:33",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 61,100.0 · 1시간 판정 10:16"
+    },
+    {
+     "at": "2026-11-26 09:46:25",
+     "kind": "lock",
+     "label": "잠금",
+     "text": "잠금(+0.9% 도달) — 손절을 61038.9 로 옮김"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "day": 0.71,
+    "label": "묶임",
+    "now": 0.5,
+    "backfill": false,
+    "day_old": 0.68,
+    "old_label": "보통",
+    "ratio": 1.54,
+    "ratio_med": 1.63
+   },
+   "corrected": null
+  },
+  {
+   "no": 11,
+   "dir": "롱",
+   "entry": 60500.0,
+   "exit": 60444.4,
+   "ret_pct": -0.092,
+   "win": false,
+   "how": "1시간 규칙(체결 1시간 뒤 -0.1%)",
+   "tp_pct": 1.0,
+   "filled_kst": "2026-11-26 15:10:56",
+   "closed_kst": "2026-11-26 16:11:01",
+   "filled_ms": 1795673456473,
+   "closed_ms": 1795677061785,
+   "locked": false,
+   "mfe_pct": 0.26,
+   "mae_pct": -0.237,
+   "sl_final": 59895.0,
+   "setup": {
+    "tags": [
+     "그 밖"
+    ],
+    "week": -4.02,
+    "hour": -0.26,
+    "rsi7": 44.1,
+    "wick_pct": 0.012,
+    "tail": false,
+    "top2h": false,
+    "bar": "11-26 14:45"
+   },
+   "events": [
+    {
+     "at": "2026-11-26 15:10:56",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 롱 60,500.0 · 1시간 판정 16:10"
+    },
+    {
+     "at": "2026-11-26 16:10:58",
+     "kind": "close",
+     "label": "종료",
+     "text": "정리 — 1시간 규칙(체결 1시간 뒤 -0.1%)"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "day": 0.69,
+    "label": "보통",
+    "now": 0.7,
+    "backfill": false,
+    "day_old": 0.66,
+    "old_label": "보통",
+    "ratio": 1.92,
+    "ratio_med": 1.63
+   },
+   "corrected": null
+  },
+  {
+   "no": 12,
+   "dir": "숏",
+   "entry": 61450.0,
+   "exit": 61488.6,
+   "ret_pct": -0.063,
+   "win": false,
+   "how": "1시간 규칙(체결 1시간 뒤 -0.1%)",
+   "tp_pct": 0.7,
+   "filled_kst": "2026-11-27 11:49:14",
+   "closed_kst": "2026-11-27 12:49:19",
+   "filled_ms": 1795747754564,
+   "closed_ms": 1795751359756,
+   "locked": false,
+   "mfe_pct": 0.278,
+   "mae_pct": -0.405,
+   "sl_final": 62064.5,
+   "setup": {
+    "tags": [
+     "그 밖"
+    ],
+    "week": -0.31,
+    "hour": 1.32,
+    "rsi7": 84.6,
+    "wick_pct": 0.462,
+    "tail": true,
+    "top2h": false,
+    "bar": "11-27 11:30"
+   },
+   "events": [
+    {
+     "at": "2026-11-27 11:49:14",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 61,450.0 · 1시간 판정 12:49"
+    },
+    {
+     "at": "2026-11-27 12:49:16",
+     "kind": "close",
+     "label": "종료",
+     "text": "정리 — 1시간 규칙(체결 1시간 뒤 -0.1%)"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "day": 0.74,
+    "label": "묶임",
+    "now": 0.49,
+    "backfill": false,
+    "day_old": 0.66,
+    "old_label": "보통",
+    "ratio": 2.24,
+    "ratio_med": 1.592
+   },
+   "corrected": null
+  },
+  {
+   "no": 13,
+   "dir": "숏",
+   "entry": 61800.0,
+   "exit": 61742.5,
+   "ret_pct": 0.093,
+   "win": true,
+   "how": "잠금 손절(+0.1%)",
+   "tp_pct": 0.7,
+   "filled_kst": "2026-11-27 15:10:13",
+   "closed_kst": "2026-11-27 16:54:11",
+   "filled_ms": 1795759813828,
+   "closed_ms": 1795766051434,
+   "locked": true,
+   "mfe_pct": 0.537,
+   "mae_pct": -0.311,
+   "sl_final": 61738.2,
+   "setup": {
+    "tags": [
+     "밴드 끝 반대"
+    ],
+    "week": -0.22,
+    "hour": 0.59,
+    "rsi7": 73.3,
+    "wick_pct": 0.046,
+    "tail": false,
+    "top2h": false,
+    "bar": "11-27 14:45"
+   },
+   "events": [
+    {
+     "at": "2026-11-27 15:10:13",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 숏 61,800.0 · 1시간 판정 16:10"
+    },
+    {
+     "at": "2026-11-27 16:10:14",
+     "kind": "hour",
+     "label": "1시간",
+     "text": "1시간 판정 — +0.2% 이익 구간이라 유지"
+    },
+    {
+     "at": "2026-11-27 16:43:56",
+     "kind": "lock",
+     "label": "잠금",
+     "text": "잠금(+0.5% 도달) — 손절을 61738.2 로 옮김"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "day": 0.74,
+    "label": "묶임",
+    "now": 0.54,
+    "backfill": false,
+    "day_old": 0.79,
+    "old_label": "묶임",
+    "ratio": 1.78,
+    "ratio_med": 1.592
+   },
+   "corrected": null
+  },
+  {
+   "no": 14,
+   "dir": "롱",
+   "entry": 59750.0,
+   "exit": 60168.2,
+   "ret_pct": 0.7,
+   "win": true,
+   "how": "익절",
+   "tp_pct": 0.7,
+   "filled_kst": "2026-11-28 06:50:39",
+   "closed_kst": "2026-11-28 10:18:37",
+   "filled_ms": 1795816239319,
+   "closed_ms": 1795828717004,
+   "locked": true,
+   "mfe_pct": 0.7,
+   "mae_pct": -0.329,
+   "sl_final": 59809.7,
+   "setup": {
+    "tags": [
+     "밴드 끝 반대"
+    ],
+    "week": 0.83,
+    "hour": -0.0,
+    "rsi7": 44.6,
+    "wick_pct": 0.072,
+    "tail": false,
+    "top2h": false,
+    "bar": "11-28 06:30"
+   },
+   "events": [
+    {
+     "at": "2026-11-28 06:50:39",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 롱 59,750.0 · 1시간 판정 07:50"
+    },
+    {
+     "at": "2026-11-28 07:50:41",
+     "kind": "hour",
+     "label": "1시간",
+     "text": "1시간 판정 — +0.1% 이익 구간이라 유지"
+    },
+    {
+     "at": "2026-11-28 10:10:05",
+     "kind": "lock",
+     "label": "잠금",
+     "text": "잠금(+0.5% 도달) — 손절을 59809.7 로 옮김"
+    }
+   ],
+   "sync": {
+    "open": true,
+    "day": 0.62,
+    "label": "보통",
+    "now": 0.18,
+    "backfill": false,
+    "day_old": 0.82,
+    "old_label": "묶임",
+    "ratio": 2.83,
+    "ratio_med": 1.596
+   },
+   "corrected": null
+  },
+  {
+   "no": 15,
+   "dir": "롱",
+   "entry": 59650.0,
+   "exit": 59048.5,
+   "ret_pct": -1.008,
+   "win": false,
+   "how": "손절",
+   "tp_pct": 0.7,
+   "filled_kst": "2026-11-28 15:03:56",
+   "closed_kst": "2026-11-28 19:50:09",
+   "filled_ms": 1795845836471,
+   "closed_ms": 1795863009725,
+   "locked": false,
+   "mfe_pct": 0.399,
+   "mae_pct": -1.008,
+   "sl_final": 59053.5,
+   "setup": {
+    "tags": [
+     "그 밖"
+    ],
+    "week": 7.05,
+    "hour": -0.43,
+    "rsi7": 27.1,
+    "wick_pct": 0.142,
+    "tail": false,
+    "top2h": false,
+    "bar": "11-28 14:45"
+   },
+   "events": [
+    {
+     "at": "2026-11-28 15:03:56",
+     "kind": "fill",
+     "label": "체결",
+     "text": "체결 — 롱 59,650.0 · 1시간 판정 16:03"
+    },
+    {
+     "at": "2026-11-28 16:03:57",
+     "kind": "hour",
+     "label": "1시간",
+     "text": "1시간 판정 — +0.2% 이익 구간이라 유지"
+    }
+   ],
+   "sync": {
+    "open": false,
+    "backfill": false,
+    "ratio_med": 1.596,
+    "note": "나스닥 쉬는 시간"
+   },
+   "corrected": null
+  }
+ ]
+}
